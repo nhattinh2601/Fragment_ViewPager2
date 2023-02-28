@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         // Khởi tạo bộ chuyển đổi (adapter)
         mAdapter = new ViewPagerAdapter(this);
 
-        // tham chiếu đến các thành phần của file activity_main.xml
+        // gọi đến các thành phần của file activity_main.xml
         mViewPager2 = findViewById(R.id.viewPager2);    // là ID của ViewPager2 đã thêm vào trong file giao diện activity_main
         mTabLayout = findViewById(R.id.tabLayout);      // là ID của TabLayout ...
 
